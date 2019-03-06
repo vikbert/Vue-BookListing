@@ -13,9 +13,11 @@ export default {
     return {
       title: "All Books",
       books: [
-        { title: "Firefox", author: "Firefox Fundation" },
-        { title: "Chrome", author: "Google Fundation" },
-        { title: "Internet Explorer", author: "Microsoft Fundation" }
+        [
+          { title: "Self-Reliance", author: "Ralph Waldo Emerson" },
+          { title: "American Gods", author: "Neil Gaiman" },
+          { title: "Amusing Ourselves to Death", author: "Neil Postman" }
+        ]
       ]
     };
   }
